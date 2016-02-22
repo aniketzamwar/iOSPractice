@@ -7,20 +7,32 @@
 //
 
 import Foundation
+import UIKit
 
 let WhatsitDidChangeNotification = "MyWhatsitDidChange"
 
-class MyWhatsit {
+class MyWhatsit{
     
     var name: String {
         didSet {
             postDidChangeNotification()
         }
     }
+    
     var location: String {
         didSet {
             postDidChangeNotification()
         }
+    }
+    
+    var image: UIImage? {
+        didSet {
+            postDidChangeNotification()
+        }
+    }
+    
+    var viewImage: UIImage {
+        return image ?? UIImage(named: "camera")!
     }
     
     init (name : String, location : String = "") {

@@ -54,6 +54,7 @@ class MasterViewController: UITableViewController {
         things.insert(MyWhatsit(name: "My item \(itemNumber)"), atIndex: 0)
         let indexPath = NSIndexPath(forRow: 0, inSection: 0)
         self.tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+        itemNumber++
     }
 
     // MARK: - Segues
@@ -86,6 +87,7 @@ class MasterViewController: UITableViewController {
         let thing = things[indexPath.row] as MyWhatsit
         cell.textLabel!.text = thing.name
         cell.detailTextLabel?.text = thing.location
+        cell.imageView?.image = thing.viewImage
         return cell
     }
 
