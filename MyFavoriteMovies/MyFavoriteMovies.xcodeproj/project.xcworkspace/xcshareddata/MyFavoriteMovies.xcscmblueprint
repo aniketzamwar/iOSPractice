@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BAE1F7A899474A2C4487507BEBB81EB1B0FF4AC2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BAE1F7A899474A2C4487507BEBB81EB1B0FF4AC2" : 9223372036854775807,
+    "559D77FF7136B190CA27E9F75058F63DB5511397" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD6D873D-C756-4EC2-A761-28A49620A850",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BAE1F7A899474A2C4487507BEBB81EB1B0FF4AC2" : "ud421-ios-networking\/",
+    "559D77FF7136B190CA27E9F75058F63DB5511397" : "iOSPractice\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyFavoriteMovies",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyFavoriteMovies\/MyFavoriteMovies.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aniketzamwar\/iOSPractice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "559D77FF7136B190CA27E9F75058F63DB5511397"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/udacity\/ud421-ios-networking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BAE1F7A899474A2C4487507BEBB81EB1B0FF4AC2"
+    }
+  ]
+}
